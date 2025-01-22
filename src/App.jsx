@@ -13,7 +13,7 @@ function App() {
   return (
     <Profile
       name="Abderrahim El Ouali"
-      image="/cropped_image.jpg"
+      image={`${process.env.PUBLIC_URL}/cropped_image.jpg`} 
       title="Full-Stack Web Developer"
       description="MERN Stack | PHP & Laravel | Student at ISTA Tinghir. Passionate about building scalable, user-friendly, and efficient web solutions tailored to client needs."
       skills={skillsList}
